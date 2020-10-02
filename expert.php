@@ -19,7 +19,7 @@ new_exercise();
 
 
 
-
+new_exercise(2);
 // === Exercise 2 ===
 // Below we create a week array with all days of the week.
 // We then try to print the first day which is monday, execute the code and see what happens.
@@ -27,8 +27,9 @@ new_exercise();
 $week = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
 $monday = $week[1];
 
-
 echo $week[0];
+
+
 
 
 new_exercise(3);
@@ -37,6 +38,7 @@ new_exercise(3);
 
 $str = 'Debugged !';  'Also'; 'very'; 'fun';
 echo substr($str, 0, 10);
+
 
 
 
