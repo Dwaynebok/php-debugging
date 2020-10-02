@@ -6,7 +6,7 @@ ini_set('display_startup_errors',"1");
 error_reporting(E_ALL);
 
 
-// === Exercise 2 ===
+// === Exercise 1 ===
 
 function new_exercise() {
 
@@ -31,6 +31,12 @@ $monday = $week[1];
 echo $week[0];
 
 
+new_exercise(3);
+// === Exercise 3 ===
+// This should echo ` "Debugged !" `, fix it so that that is the literal text echo'ed
+
+$str = 'Debugged !';  'Also'; 'very'; 'fun';
+echo substr($str, 0, 10);
 
 
 
