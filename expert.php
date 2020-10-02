@@ -60,7 +60,7 @@ new_exercise(5);
 
 $arr = [];
 
-for ($letter = 'a'; $letter <= 'aa'; $letter++) {
+for ($letter = 'a'; $letter != 'aa'; $letter++) {
     array_push($arr, $letter);
 }
 
